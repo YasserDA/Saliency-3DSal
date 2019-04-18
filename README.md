@@ -1,5 +1,4 @@
-# Saliency-3DSal
-3D-CNN architecture for video saliency prediction
+#**3DSal: An Efficient 3D-CNN Architecture for Video Saliency Prediction**
 
 **Abstract**:
 
