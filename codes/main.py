@@ -1,5 +1,5 @@
 from Constant import *
-#from Prep_Data import *
+from Prep_Data import *
 from Model import *
 import keras
 import numpy as np
@@ -22,6 +22,10 @@ import keras.callbacks
 #if gpu == 1:
 #   os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
 #  os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+
+
+# Preparing the dataset
+Create_Data_Set()
 
 params = {'batch_size':64,
           'shuffle': False}
