@@ -280,7 +280,3 @@ def Create_Data_Set():
     create_GT_data()
     Batch_GT_Creation()
     gc.collect()
-
-
-
-Create_Data_Set()
